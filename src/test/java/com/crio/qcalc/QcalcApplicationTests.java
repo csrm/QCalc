@@ -15,7 +15,7 @@ class QcalcApplicationTests {
 	void testAdd() {
 		StandardCalculator sCal = new StandardCalculator();
         sCal.add(1,2);
-        assertEquals((long)3,(long)sCal.getResult());
+        assertEquals(3,sCal.getResult());
 	}
 
 }
