@@ -10,7 +10,7 @@ public class CalcApplication {
 		//SpringApplication.run(QcalcApplication.class, args);
 		System.out.println("Starting QCalc.....");
 		StandardCalculator sCal = new StandardCalculator();
-		sCal.add(1,2);
+		sCal.add(1,23);
 		System.out.println(sCal.getResult());
 	}
 
