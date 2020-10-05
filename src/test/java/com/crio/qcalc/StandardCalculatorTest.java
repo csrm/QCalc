@@ -8,9 +8,13 @@ import org.junit.jupiter.api.function.Executable;
 
 
 public class StandardCalculatorTest {
-
-
-
+	
+	@Test
+	void testAdd() {
+		StandardCalculator scal = new StandardCalculator();
+		scal.add(1,2);
+		assertEquals(3,scal.getResult());
+	}
 
 	@Test
 	void testAdditionOverflow() {

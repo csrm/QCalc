@@ -89,5 +89,12 @@ public class ScientificCalculatorTest {
 		assertEquals(0, calc.getResult());
 	}
 
+	@Test
+	void testPow() {
+		ScientificCalculator calc = new ScientificCalculator();
+		calc.pow(2,5);
+		assertEquals(32, calc.getResult());
+	}
+
 }
 

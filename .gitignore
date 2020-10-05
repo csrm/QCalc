@@ -1,18 +1,12 @@
 HELP.md
 .gradle
 build/
-<<<<<<< HEAD
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-=======
 bin/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
 **.DS_Store
->>>>>>> d941f757df0dd9a1951235c6e770d774b2bb5f35
 
 ### STS ###
 .apt_generated
@@ -29,11 +23,8 @@ bin/
 *.iml
 *.ipr
 out/
-<<<<<<< HEAD
 !**/src/main/**/out/
 !**/src/test/**/out/
-=======
->>>>>>> d941f757df0dd9a1951235c6e770d774b2bb5f35
 
 ### NetBeans ###
 /nbproject/private/
